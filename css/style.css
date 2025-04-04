@@ -196,7 +196,7 @@ a {
 }
 
 .skill:hover {
-    background: dodgerblue;
+    background: var(--blue);
     color: white;
     transform: scale(1.05);
 }
@@ -268,8 +268,8 @@ a {
 }
 
 .view-btn {
-    background-color: #ff6600;
-    color: white;
+    background-color: var(--blue);
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -277,7 +277,8 @@ a {
 }
 
 .view-btn:hover {
-    background-color: #cc5500;
+    background-color: var(--blue);
+    color:white;
 }
 
 /* contact */
