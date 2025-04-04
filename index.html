@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salil Koirala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>Salil Koirala</h2>
+        <ul id="navlinks">
+            <li class="active"><a href="#intro">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work_experience">Experience</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+        <div id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="menu-toggle-close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>  
+    </nav>
+
+    <section id="intro">
+        <img src="intro.png" alt="My Picture">
+        <div class="intro_message">
+            <h2>About Me</h2>
+            <p>
+                I am salil koirala. I am a passionate Software Engineer with expertise in web development, backend systems, and cloud integration. 
+                My skill set includes <strong>Laravel, PHP, JavaScript, Vue.js, Golang, and Python</strong>, allowing me to build 
+                scalable and efficient applications.
+            </p>
+            <p>
+                Beyond coding, I love playing ping pong and watching movies.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill"><span class="icon"><img src="https://images.vexels.com/media/users/3/166477/isolated/lists/9bb722f0e85ddbc1ce0f064534fd2311-python-programming-language-icon.png" alt="python logo"></span>Python</div>
+            <div class="skill"><span class="icon"><img src="https://static-00.iconduck.com/assets.00/golang-icon-1594x2048-0xixr8zr.png" alt="golang logo"></span>Golang</div>
+            <div class="skill"><span class="icon"><img src="https://static.vecteezy.com/system/resources/previews/012/697/294/non_2x/3d-laravel-programming-framework-logo-free-png.png" alt="laravel logo">Laravel</div>
+            <div class="skill"><span class="icon"><img src="https://img.icons8.com/color/600/vue-js.png" alt="vue logo">Vue.js</div>
+            <div class="skill"><span class="icon"><img src="https://static-00.iconduck.com/assets.00/aws-icon-1024x612-hvye7lur.png" alt="aws logo">AWS</div>
+            <div class="skill"><span class="icon"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/database-programming-1832961-1556344.png" alt="database logo"> MySQL, PostgreSQL, MongoDB</div>
+            <div class="skill"><span class="icon"><img src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt="docker logo"> Docker & Kubernetes</div>
+            <div class="skill"><span class="icon"><img src="https://cdn.iconscout.com/icon/free/png-256/free-git-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-language-pack-logos-icons-1175195.png" alt="git logo"> Git, GitHub & CI/CD</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-gallery">
+            <div class="project-card" style="background-image: url('smartprobe.png');">
+                <div class="overlay">
+                    <h3>Smartprobe</h3>
+                    <a href="https://smartprobe.net.au" target="_blank" class="view-btn">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card" style="background-image: url('allaspectscare.png');">
+                <div class="overlay">
+                    <h3>All Aspects Care</h3>
+                    <a href="https://allaspects-care.com.au/" target="_blank" class="view-btn">View Project</a>
+                </div>
+            </div>
+    
+            <div class="project-card" style="background-image: url('rsna.png');">
+                <div class="overlay">
+                    <h3>RSNA Website</h3>
+                    <a href="https://rsna.org.au/" target="_blank" class="view-btn">View Project</a>
+                </div>
+            </div>
+    
+            <div class="project-card" style="background-image: url('medical.png');">
+                <div class="overlay">
+                    <h3>Medical Management System</h3>
+                    <a href="https://github.com/salilkoirala46/MedicalManagementSystem" target="_blank" class="view-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="work_experience">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>ContactSpace</h3>
+                    <p>Software developer</p>
+                    <p>Oct 2023– Present</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Capital and Centric funding</h3>
+                    <p>Software developer</p>
+                    <p>Oct 2022 – Oct 2023</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Smartprobe</h3>
+                    <p>Software developer</p>
+                    <p>Nov 2019 – Oct 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, project inquiries, or just want to connect, feel free to reach out using the form below.</p>
+    
+        <div class="contact-form-container">
+            <form action="https://formspree.io/f/xeoarrzv" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                </div>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+   
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Salil Koirala. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/salilkoirala46" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/salilkoirala46" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include javascripts -->
+     <script src="scripts.js"></script>
+</body>
+</html>
